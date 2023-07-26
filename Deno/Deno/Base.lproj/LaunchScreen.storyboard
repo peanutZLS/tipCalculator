@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22113.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22089"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="XcV-uj-gfg">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="852" id="5MT-ZG-F8o"/>
+                                    <constraint firstAttribute="width" constant="393" id="hSt-Z1-cd7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bw7-QY-YME">
+                                <rect key="frame" x="76" y="129" width="240" height="240"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="KU0-7F-Ipz"/>
+                                    <constraint firstAttribute="height" constant="240" id="Ny3-rk-4vg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-xl-bB6">
+                                <rect key="frame" x="59" y="458" width="275" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="T3w-wf-Dmg"/>
+                                    <constraint firstAttribute="height" constant="60" id="raH-1H-Fl2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" red="0.87058823529999996" green="0.81568627449999997" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bw7-QY-YME" secondAttribute="bottom" constant="449" id="CdB-Pf-Kyu"/>
+                            <constraint firstItem="Bw7-QY-YME" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="ILV-Aa-ImP"/>
+                            <constraint firstItem="XcV-uj-gfg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JSz-Wn-ZXZ"/>
+                            <constraint firstItem="Bw7-QY-YME" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="M0O-IG-asH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KXL-xl-bB6" secondAttribute="trailing" constant="59" id="Q3g-PI-OWz"/>
+                            <constraint firstItem="XcV-uj-gfg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RfJ-lc-iri"/>
+                            <constraint firstItem="XcV-uj-gfg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X4U-0P-irM"/>
+                            <constraint firstItem="KXL-xl-bB6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="Xz0-oJ-qto"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bw7-QY-YME" secondAttribute="trailing" constant="77" id="r4n-jE-cTF"/>
+                            <constraint firstAttribute="bottom" secondItem="XcV-uj-gfg" secondAttribute="bottom" id="ufN-5J-0TD"/>
+                            <constraint firstItem="KXL-xl-bB6" firstAttribute="top" secondItem="Bw7-QY-YME" secondAttribute="bottom" constant="89" id="yuY-fv-bkm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KXL-xl-bB6" secondAttribute="bottom" constant="293" id="zvi-9o-TAD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="500" height="500"/>
+        <image name="6" width="1179" height="1222"/>
+    </resources>
+</document>
